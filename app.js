@@ -436,32 +436,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ==========================================================================
-     3. CATEGORY FILTERING SYSTEM
-     ========================================================================== */
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const articleCards = document.querySelectorAll('.editorial-grid .article-card');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      // Update active state
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const filterValue = btn.getAttribute('data-category');
-
-      articleCards.forEach(card => {
-        const cardCategory = card.getAttribute('data-category');
-
-        if (filterValue === 'all' || cardCategory === filterValue || cardCategory === 'all') {
-          card.style.display = 'flex';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
-  });
-
-  /* ==========================================================================
      4. MOBILE NAVIGATION DRAWER TOGGLE
      ========================================================================== */
   const mobileMenuBtn = document.getElementById('mobileMenuBtn');
