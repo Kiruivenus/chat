@@ -129,33 +129,22 @@ document.addEventListener('DOMContentLoaded', () => {
         <h4>What is AttaPoll?</h4>
         <p>AttaPoll is a popular mobile survey application that connects users directly with short market research questionnaires on iOS and Android devices.</p>
 
-        <!-- VIDEO DEMONSTRATION MOCKUP -->
+        <!-- VIDEO DEMONSTRATION PLAYER -->
         <div class="modal-video-demo">
           <div class="video-demo-header">
-            <span>video demo: Mobile Survey Cashout & Point Conversion</span>
+            <span>Video Demonstration: AttaPoll Mobile Survey & Cashout Walkthrough</span>
             <div class="video-live-badge">
               <span class="video-live-dot"></span>
-              <span>App Simulation</span>
+              <span>HD Video Guide</span>
             </div>
           </div>
-          <div class="video-demo-body">
-            <div style="background:#042F2E; border-radius:6px; padding:1.25rem; border:1px solid #0D9488;">
-              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
-                <span style="font-size:0.8125rem; color:#2DD4BF; font-weight:700;">ATTAPOLL WALLET BAL: $12.40 USD</span>
-                <span style="font-size:0.75rem; background:#0F766E; padding:0.2rem 0.5rem; border-radius:4px; color:#CCFBF1;">Min Threshold: $3.00</span>
-              </div>
-              <div style="background:#0F172A; padding:1rem; border-radius:6px; margin-bottom:0.75rem;">
-                <div style="display:flex; justify-content:space-between; font-size:0.8125rem; color:#F8FAFC;">
-                  <span>PayPal Instant Cashout</span>
-                  <span style="color:#34D399; font-weight:700;">Ready</span>
-                </div>
-                <div style="width:100%; background:#1E293B; height:6px; border-radius:3px; margin-top:0.5rem; overflow:hidden;">
-                  <div style="width:100%; background:#10B981; height:100%;"></div>
-                </div>
-              </div>
-              <div style="font-size:0.75rem; color:#99F6E4; text-align:center;">
-                ▶ <em>Simulated App Video: Cashout completed directly to PayPal account in 2 minutes.</em>
-              </div>
+          <div class="video-demo-body" style="padding: 1rem; background: #042F2E; border-radius: 8px; border: 1px solid #0D9488;">
+            <video controls playsinline preload="metadata" poster="assets/images/attapoll_guide.jpg" style="width:100%; max-height: 380px; border-radius: 8px; background: #000; display: block; margin-bottom: 0.75rem;">
+              <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div style="font-size:0.8125rem; color:#CCFBF1; text-align:center; font-weight: 500;">
+              📹 <em>Watch Walkthrough: Step-by-step video guide showing profile setup, task selection, and instant cashouts.</em>
             </div>
           </div>
         </div>
