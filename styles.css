@@ -729,16 +729,17 @@ button, input, select, textarea {
 /* Article Thumbnails & Images */
 .article-thumbnail {
   width: 100%;
-  height: 180px;
-  border-radius: var(--radius-sm);
+  height: 240px;
+  border-radius: var(--radius-md);
   overflow: hidden;
   margin-bottom: 1.25rem;
-  background-color: var(--bg-subtle);
+  background-color: #F8FAFC;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--border-color);
   flex-shrink: 0;
+  position: relative;
 }
 
 .article-thumbnail img,
@@ -746,16 +747,17 @@ button, input, select, textarea {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform var(--transition-normal);
 }
 
 .article-card:hover .article-thumbnail img,
 .article-card:hover .article-thumbnail svg {
-  transform: scale(1.03);
+  transform: scale(1.025);
 }
 
 .article-featured .article-thumbnail {
-  height: 220px;
+  height: 340px;
 }
 
 /* Featured Card (Spans 2 columns) */
@@ -763,22 +765,25 @@ button, input, select, textarea {
   grid-column: span 2;
   background-color: #FFFFFF;
   border: 2px solid var(--text-main);
-  padding: 2.25rem;
+  padding: 2rem;
+  position: relative;
 }
 
 .featured-badge {
   position: absolute;
-  top: -12px;
-  left: 24px;
+  top: 1.25rem;
+  left: 1.25rem;
+  z-index: 10;
   background-color: var(--text-main);
   color: #FFFFFF;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 0.2rem 0.625rem;
-  border-radius: 2px;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
   white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.3);
 }
 
 /* Fullrow Card */
@@ -1559,18 +1564,20 @@ button, input, select, textarea {
     padding: 1.35rem;
   }
   .article-featured {
-    padding: 1.5rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.25rem;
   }
   .article-featured .featured-badge {
-    left: 16px;
+    top: 1rem;
+    left: 1rem;
     font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
   }
   .article-thumbnail {
-    height: 140px;
+    height: 220px;
     margin-bottom: 1rem;
   }
   .article-featured .article-thumbnail {
-    height: 160px;
+    height: 280px;
   }
   
   .connect-grid {
