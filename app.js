@@ -139,7 +139,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
           <div class="video-demo-body" style="padding: 1rem; background: #042F2E; border-radius: 8px; border: 1px solid #0D9488;">
-            <video controls playsinline preload="metadata" poster="assets/images/attapoll_guide.jpg" style="width:100%; max-height: 380px; border-radius: 8px; background: #000; display: block; margin-bottom: 0.75rem;">
+            <video controls playsinline preload="metadata" poster="assets/images/attapoll_guide.jpg" style="width:100%; max-height: 420px; border-radius: 8px; background: #000; display: block; margin-bottom: 0.75rem;">
+              <source src="assets/videos/attapoll.mp4" type="video/mp4">
+              <source src="assets/videos/attapoll_video.mp4" type="video/mp4">
+              <source src="assets/videos/video.mp4" type="video/mp4">
+              <source src="assets/images/attapoll.mp4" type="video/mp4">
               <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
               Your browser does not support HTML5 video.
             </video>
