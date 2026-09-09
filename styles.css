@@ -459,7 +459,8 @@ button, input, select, textarea {
   font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
-  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
   box-shadow: 0 4px 14px rgba(0, 136, 204, 0.35);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
@@ -528,11 +529,11 @@ button, input, select, textarea {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.75rem;
 }
 
 .hero-video-wrapper {
-  margin-top: 2rem;
+  margin-top: 0;
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
