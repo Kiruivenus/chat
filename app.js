@@ -1,5 +1,5 @@
 /**
- * EarnHub - Application & Interactivity Script
+ * OnlineHub - Application & Interactivity Script
  * Provides clean, lightweight JS logic for article modals, contact overlay,
  * category filtering, smooth navigation, and mobile menu toggle.
  */
