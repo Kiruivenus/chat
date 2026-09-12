@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <text x="145" y="100" fill="#94A3B8" font-size="12" font-family="Inter">Average Message Processing Speed: 42 WPM</text>
             <rect x="380" y="160" width="300" height="90" rx="12" fill="#2563EB"/>
             <text x="405" y="195" fill="#FFFFFF" font-size="14" font-family="Inter" font-weight="700">Response Sent to Customer Queue</text>
-            <text x="405" y="220" fill="#93C5FD" font-size="12" font-family="Inter">Message Earnings Logged: +$0.15 USD</text>
+            <text x="405" y="220" fill="#93C5FD" font-size="12" font-family="Inter">Message Counter Logged: +$0.15 USD</text>
           </svg>
           <div class="media-caption">Chat Operator Interface & Message Counter Workflow</div>
         </div>
